@@ -6,12 +6,12 @@ using System.Runtime.CompilerServices;
 namespace elkvadi.ChameleonSharp.Ui
 {
     /// <summary>
-    /// Parameters used in when calling chameleonWidgetMessageHTML on a ChameleonObject
+    /// Base class used when displaying formatted messages to the user
     /// </summary>
     [Imported]
     [IgnoreNamespace]
     [ScriptName("Object")]
-    public class WidgetMessageOptions
+    public class HtmlMessageOptions
     {
         /// <summary>
         /// The title of the message
@@ -44,12 +44,13 @@ namespace elkvadi.ChameleonSharp.Ui
         }
 
         /// <summary>
-        /// An optional callback function that is triggered when the user taps the message.
+        /// Allows an icon to be shown, if no icon path is specified then
+        /// a default icon is shown
         /// </summary>
         [IntrinsicProperty]
-        public ChameleonEventHandler OnClick
+        public bool NoIcon
         {
-            get { return null; }
+            get { return false; }
             set { }
         }
     }

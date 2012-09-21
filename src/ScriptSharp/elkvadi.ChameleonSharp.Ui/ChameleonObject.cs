@@ -22,8 +22,36 @@ namespace elkvadi.ChameleonSharp.Ui
         /// <summary>
         /// Draws a visual message to display to the end user that is consistent with Chameleon.
         /// </summary>
-        [ScriptAlias("chameleonWidgetMessageHTML")]
-        public void ChameleonWidgetMessageHTML(WidgetMessageOptions options)
+        [ScriptName("chameleonWidgetMessageHTML")]
+        public void ChameleonWidgetMessageHTML(ClickableHtmlOptions options)
+        {
+            return;
+        }
+
+        /// <summary>
+        /// Draws a visual message to display to the end user that is consistent with Chameleon.
+        /// </summary>
+        /// <param name="options"></param>
+        [ScriptName("chameleonWidgetErrorHTML")]
+        public void ChameleonWidgetErrorHTML(ClickableHtmlOptions options)
+        {
+            return;
+        }
+
+        /// <summary>
+        /// Draws a standard message on the Widget usually used when no content exists
+        /// </summary>
+        [ScriptName("chameleonWidgetConfigureHTML")]
+        public void ChameleonWidgetConfigureHTML(ConfigureHtmlOptions options)
+        {
+            return;
+        }
+
+        /// <summary>
+        /// Displays a standard message on the widget telling the user that this widget needs wifi
+        /// </summary>
+        [ScriptName("chameleonWidgetNeedWiFiHTML")]
+        public void ChameleonWidgetNeedWiFiHTML(HtmlMessageOptions options)
         {
             return;
         }

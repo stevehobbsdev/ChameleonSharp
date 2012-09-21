@@ -14,6 +14,26 @@ namespace elkvadi.ChameleonSharp.Core
     public static class Chameleon
     {
         /// <summary>
+        /// Used to Invoke global Chameleon methods that are part of the Chameleon core libraries
+        /// Use Type.InvokeMethod using this as the object instance
+        /// </summary>
+        [ScriptAlias("chameleon")]
+        public static Object ChameleonInstance
+        {
+            get { return null; }
+            private set {  }
+        }
+        
+
+        /// <summary>
+        /// Chameleon API does not currently have this method listed so unsure of it's use
+        /// </summary>
+        public static void Initialize()
+        {
+            return;
+        }
+
+        /// <summary>
         /// Initialises the current page as a widget. Should only be called once per page
         /// </summary>
         /// <param name="options">Options used to initialise the widget</param>
@@ -51,18 +71,18 @@ namespace elkvadi.ChameleonSharp.Core
         }
 
         /// <summary>
-        /// TODO: Use this function to launch Android intents.
+        /// Use this function to launch Android intents.
         /// </summary>
-        public static void Intent()
+        public static void Intent(IntentOptions options)
         {
             return;
         }
 
         /// <summary>
-        /// TODO: Determines if the specified component(Activity or Service) exists on this device.
+        /// Determines if the specified component(Activity or Service) exists on this device.
         /// </summary>
         /// <returns><c>true</c> if the specified component(Activity or Service) exists on this device, otherwise <c>false</c></returns>
-        public static bool ComponentExists()
+        public static bool ComponentExists(ComponentOptions options)
         {
             return false;
         }
@@ -76,15 +96,6 @@ namespace elkvadi.ChameleonSharp.Core
         {
             return;
         }
-        
-        /// <summary>
-        /// Returns the type of view this is. Possibilities are "widget" or "window"
-        /// </summary>
-        /// <returns>The type of view this is</returns>
-        public static string GetType()
-        {
-            return null;
-        }
 
         /// <summary>
         /// This function behaves differently depending on the view type that you are running you HTML as;
@@ -93,6 +104,15 @@ namespace elkvadi.ChameleonSharp.Core
         /// </summary>
         [AlternateSignature]
         public static extern void Close(bool success, Dictionary data);
+
+        /// <summary>
+        /// Returns the type of view this is. Possibilities are "widget" or "window"
+        /// </summary>
+        /// <returns>The type of view this is</returns>
+        public static string GetType()
+        {
+            return null;
+        }
 
         /// <summary>
         /// Determines if the widget is running in the "Make A Widget" widget.
@@ -148,9 +168,9 @@ namespace elkvadi.ChameleonSharp.Core
         }
 
         /// <summary>
-        /// TODO: kicks off an Oauth 1.0 or 2.0 handshake with a remote service provider. 
+        /// Kicks off an Oauth 1.0 or 2.0 handshake with a remote service provider. 
         /// </summary>
-        public static void PromptOauth()
+        public static void PromptOauth(OAuthOptions options)
         {
             return;
         }
@@ -159,7 +179,7 @@ namespace elkvadi.ChameleonSharp.Core
         /// Save and persist an object that is only accessible to this widget instance.
         /// </summary>
         /// <param name="data">Data to save</param>
-        public static void SaveData(Dictionary data)
+        public static void SaveData(Object data)
         {
             return;
         }
@@ -171,7 +191,7 @@ namespace elkvadi.ChameleonSharp.Core
         /// roaming is implemented
         /// </summary>
         /// <returns>The Data</returns>
-        public static Dictionary GetData()
+        public static Object GetData()
         {
             return null;
         }
@@ -182,7 +202,7 @@ namespace elkvadi.ChameleonSharp.Core
         /// </summary>
         /// <param name="identifier">An identifier for this data block</param>
         /// <param name="data">Data to save</param>
-        public static void SaveLocalData(string identifier, Dictionary data)
+        public static void SaveLocalData(string identifier, Object data)
         {
             return;
         }
@@ -192,7 +212,7 @@ namespace elkvadi.ChameleonSharp.Core
         /// </summary>
         /// <param name="identifier">The id of the data object that was previously saved.</param>
         /// <returns>The Data</returns>
-        public static Dictionary GetLocalData(string identifier)
+        public static Object GetLocalData(string identifier)
         {
             return null;
         }
@@ -202,7 +222,7 @@ namespace elkvadi.ChameleonSharp.Core
         /// The shared data object may be accessed and written to by any instance of a specific widget.
         /// </summary>
         /// <param name="data">Data to be saved</param>
-        public static void SaveSharedData(Dictionary data)
+        public static void SaveSharedData(Object data)
         {
             return;
         }
@@ -211,7 +231,7 @@ namespace elkvadi.ChameleonSharp.Core
         /// Retrieve the data object that is shared amongst all instances of this widget.
         /// </summary>
         /// <returns></returns>
-        public static Dictionary GetSharedData()
+        public static Object GetSharedData()
         {
             return null;
         }

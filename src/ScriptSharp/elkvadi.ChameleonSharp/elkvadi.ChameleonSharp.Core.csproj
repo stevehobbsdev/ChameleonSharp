@@ -31,7 +31,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Delegates.cs" />
+    <Compile Include="Options\ComponentOptions.cs" />
+    <Compile Include="Options\IntentOptions.cs" />
     <Compile Include="Options\LoadingOptions.cs" />
+    <Compile Include="Options\NameValueOptions.cs" />
+    <Compile Include="Options\OAuthUrlOptions.cs" />
+    <Compile Include="Options\OAuthOptions.cs" />
     <Compile Include="Options\PromptHtmlOptions.cs" />
     <Compile Include="Options\RefreshOptions.cs" />
     <Compile Include="Options\TitleOptions.cs" />

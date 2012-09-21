@@ -20,5 +20,11 @@ namespace elkvadi.ChameleonSharp.Core
     /// </summary>
     /// <param name="success"></param>
     /// <param name="data"></param>
-    public delegate void ChameleonCloseEventHander(bool success, Dictionary data); 
+    public delegate void ChameleonResultEventHander(bool success, Dictionary data); 
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="data"></param>
+    public delegate void ChameleonPlainResultEventHandler(Dictionary data);
 }

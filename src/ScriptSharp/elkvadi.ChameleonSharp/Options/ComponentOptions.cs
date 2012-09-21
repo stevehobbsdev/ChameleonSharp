@@ -5,52 +5,44 @@ using System.Runtime.CompilerServices;
 namespace elkvadi.ChameleonSharp.Core
 {
     /// <summary>
-    /// Parameters used when calling PromptHTML on the Chameleon object
+    /// Properties used when defining an Android component to utilise
     /// </summary>
     [Imported]
     [IgnoreNamespace]
     [ScriptName("Object")]
-    public class PromptHtmlOptions
+    public class ComponentOptions
     {
         /// <summary>
-        /// The url to load in the window.
+        /// The full class name of the component to target.
         /// </summary>
         [IntrinsicProperty]
-        public string Url
+        public string Name
         {
             get { return null; }
             set {  }
         }
 
         /// <summary>
-        /// A desired width for the window. Not required.
+        /// The package the activity resides in.
         /// </summary>
         [IntrinsicProperty]
-        public Number Width
-        {
-            get { return 0; }
-            set { }
-        }
-
-        /// <summary>
-        /// A desired height for the window. Not required.
-        /// </summary>
-        [IntrinsicProperty]
-        public Number Height
-        {
-            get { return 0; }
-            set { }
-        }
-
-        /// <summary>
-        /// Called when the window is closed.
-        /// </summary>
-        [IntrinsicProperty]
-        public ChameleonResultEventHander Result
+        public string Package
         {
             get { return null; }
             set {  }
         }
+
+        /// <summary>
+        /// Specify what type of component you are targeting.
+        /// </summary>
+        [IntrinsicProperty]
+        public string Type
+        {
+            get { return null; }
+            set {  }
+        }
+        
+        
         
     }
 }

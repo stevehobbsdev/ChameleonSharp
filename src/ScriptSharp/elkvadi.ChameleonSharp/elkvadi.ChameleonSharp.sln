@@ -29,6 +29,30 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Website", "http://localhost
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\..\Tests\ScriptSharp\Tests\Tests.csproj", "{5AC64933-0DB8-4B2C-A18E-E7638B61F6B6}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GmailWidget", "http://localhost:50697", "{274793BE-4D9C-4E7A-9DCF-C1BCDD6CC709}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50697"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Tests\GmailWidget\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50697\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50697"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Tests\GmailWidget\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50697\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\Tests\GmailWidget\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GmailWidgetTest", "..\..\Tests\ScriptSharp\GmailWidgetTest\GmailWidgetTest\GmailWidgetTest.csproj", "{F7A36D23-FC2C-4186-9F8B-38E7C0232E7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +75,14 @@ Global
 		{5AC64933-0DB8-4B2C-A18E-E7638B61F6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AC64933-0DB8-4B2C-A18E-E7638B61F6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5AC64933-0DB8-4B2C-A18E-E7638B61F6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274793BE-4D9C-4E7A-9DCF-C1BCDD6CC709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274793BE-4D9C-4E7A-9DCF-C1BCDD6CC709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274793BE-4D9C-4E7A-9DCF-C1BCDD6CC709}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{274793BE-4D9C-4E7A-9DCF-C1BCDD6CC709}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F7A36D23-FC2C-4186-9F8B-38E7C0232E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A36D23-FC2C-4186-9F8B-38E7C0232E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A36D23-FC2C-4186-9F8B-38E7C0232E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A36D23-FC2C-4186-9F8B-38E7C0232E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

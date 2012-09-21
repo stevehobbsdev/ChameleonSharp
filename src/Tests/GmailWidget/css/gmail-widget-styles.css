@@ -1,0 +1,121 @@
+﻿/**** Gmail Widget ****/
+.email-listing {
+	width: 100%;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	
+	float: left;
+	
+	word-break: break-word;
+}
+
+.email-listing p {
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+}
+
+/* Email Content */
+p.email-listing-title {
+	padding-bottom: 4px;
+	width: 90%;
+	float: left;
+	font: 18px 'Roboto-Medium';
+}
+
+
+.unread-email-icon {
+	margin-top: 4px;
+	width: 8%;
+	max-width: 20px;
+	float: right;
+	clear: right;
+}
+
+.unread-email-icon img {
+	max-width: 100%;
+}
+
+p.email-listing-from, .email-listing-created {
+	margin-bottom: 10px;
+	width: 50%;
+	font: 13px 'Roboto-Light';
+}
+
+p.email-listing-from {
+	float: left;
+}
+
+p.email-listing-created {
+	float: right;
+	text-align: right;
+}
+
+p.email-listing-summary {
+	width: 100%;
+	font-family: 'Roboto-LightItalic';
+	
+	float: left;
+	clear: left;
+}
+
+
+/**** No Email ****/
+.no-mail {
+	margin: -10% auto;
+	padding: 0 ;
+	top: 40%;
+	left: 0;
+	bottom: 40%;
+	right: 0;
+	
+	min-height: 60px;
+	min-width: 60px;
+	width: 100%;
+
+	
+	position: relative;
+
+	text-align: left;
+	display: inline-table;
+	vertical-align: middle;
+
+	box-sizing: border-box;
+}
+
+.no-mail-message, .no-mail-icon {
+	display: inline;
+	float: left;
+}
+
+.no-mail-message {
+	padding: 4px 0 4px 10px;
+	margin-left: 10px;
+	border-left: 1px solid rgba(255, 255, 255, 0.2);
+	width: 74%;
+	clear: right;
+}
+
+.no-mail p {
+	margin: 0;
+	padding: 0;
+}
+
+.no-mail .no-mail-icon {
+	max-width: 40px;
+	max-height: 40px;
+}
+
+.no-mail .no-mail-icon img {
+	max-width: 100%;
+}
+
+.no-mail-message .main-message {
+	font-size: 18px;
+}
+
+.email-listing-title-link{
+	text-decoration: none;
+}
