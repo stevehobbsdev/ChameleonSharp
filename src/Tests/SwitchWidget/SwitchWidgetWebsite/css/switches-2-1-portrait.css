@@ -1,0 +1,11 @@
+﻿.switches-list {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.switches-list li {
+	width: 33.3%;
+	
+	margin: 0;
+	padding: 0;
+}

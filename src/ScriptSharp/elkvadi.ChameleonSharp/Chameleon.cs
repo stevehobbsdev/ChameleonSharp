@@ -191,9 +191,9 @@ namespace elkvadi.ChameleonSharp.Core
         /// roaming is implemented
         /// </summary>
         /// <returns>The Data</returns>
-        public static Object GetData()
+        public static T GetData<T>()
         {
-            return null;
+            return default(T);
         }
 
         /// <summary>
@@ -212,9 +212,9 @@ namespace elkvadi.ChameleonSharp.Core
         /// </summary>
         /// <param name="identifier">The id of the data object that was previously saved.</param>
         /// <returns>The Data</returns>
-        public static Object GetLocalData(string identifier)
+        public static T GetLocalData<T>(string identifier)
         {
-            return null;
+            return default(T);
         }
 
         /// <summary>
@@ -231,15 +231,23 @@ namespace elkvadi.ChameleonSharp.Core
         /// Retrieve the data object that is shared amongst all instances of this widget.
         /// </summary>
         /// <returns></returns>
-        public static Object GetSharedData()
+        public static T GetSharedData<T>()
         {
-            return null;
+            return default(T);
         }
 
         /// <summary>
         /// Forces the hosting web-view to clear it's visual state.
         /// </summary>
         public static void Invalidate()
+        {
+            return;
+        }
+
+        /// <summary>
+        /// Forces the hosting web-view to clear it's visual state.
+        /// </summary>
+        public static void InvalidateTwo()
         {
             return;
         }

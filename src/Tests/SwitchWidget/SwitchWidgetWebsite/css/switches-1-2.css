@@ -1,0 +1,42 @@
+﻿.switches-list li{
+	clear: none;
+	float: left;
+	width: 60px;
+	background-color: rgba(0,0,0,0);
+	height: 100px;
+	margin: 16px;
+	list-style: none;
+	outline: none;
+}
+
+
+.switches-list li .caption {
+	display: none;	
+}
+
+
+/*
+.switch-highlighted .caption{
+	display: block;
+}
+
+
+.switch-disabled .caption{
+	display: none;
+}
+
+
+
+.switches-list li .caption p{
+	display: none;
+}
+*/
+
+
+
+.switches-list li .icon {
+	clear: both;
+	width: 100%;
+	height: 60px;
+	background-size: contain;
+}

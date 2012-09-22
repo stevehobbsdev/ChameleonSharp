@@ -17,7 +17,7 @@ namespace elkvadi.ChameleonSharp.Ui
         /// Fired when the html block is clicked by the user
         /// </summary>
         [IntrinsicProperty]
-        public jQueryEvent OnClick
+        public jQueryEventHandler OnClick
         {
             get { return null; }
             set { }

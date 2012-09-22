@@ -34,8 +34,9 @@
     <Compile Include="Options\ConfigureHtmlOptions.cs" />
     <Compile Include="Options\ClickableHtmlOptions.cs" />
     <Compile Include="Options\HtmlMessageOptions.cs" />
+    <Compile Include="Options\InvalidateOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ChameleonObject.cs" />
+    <Compile Include="ChameleonUiObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

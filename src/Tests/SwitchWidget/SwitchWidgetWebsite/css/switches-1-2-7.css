@@ -1,0 +1,9 @@
+﻿.switches-list li{
+	margin-bottom: 20px !important;
+	width: 50% !important;
+	height: 33% !important;
+}
+
+.switches-list li .caption {
+	display: block !important;
+}

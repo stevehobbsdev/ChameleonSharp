@@ -1,0 +1,183 @@
+﻿.switches-list .switch-airplanemode .icon {
+	background: url(../images/switch_icons/controls_airplane_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-airplanemode-disabled .icon {
+	background: url(../images/switch_icons/controls_airplane_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-airplanemode-highlighted .icon {
+	background: url(../images/switch_icons/controls_airplane_highlighted.png) no-repeat center center;
+}
+
+
+
+
+.switches-list .switch-bluetooth .icon  {
+	background: url(../images/switch_icons/controls_bluetooth_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-bluetooth-disabled .icon  {
+	background: url(../images/switch_icons/controls_bluetooth_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-bluetooth-highlighted .icon  {
+	background: url(../images/switch_icons/controls_bluetooth_highlighted.png) no-repeat center center;
+}
+
+
+
+
+
+.switches-list .switch-brightness .icon  {
+	background: url(../images/switch_icons/controls_brightness_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-brightness-disabled .icon  {
+	background: url(../images/switch_icons/controls_brightness_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-brightness-full .icon  {
+	background: url(../images/switch_icons/controls_brightness_highlighted.png) no-repeat center center;
+}
+
+.switches-list .switch-brightness-auto .icon  {
+	background: url(../images/switch_icons/controls_brightness2_highlighted.png) no-repeat center center;
+}
+
+.switches-list .switch-brightness-off .icon  {
+	background: url(../images/switch_icons/controls_brightness4_highlighted.png) no-repeat center center;
+}
+
+.switches-list .switch-brightness-half .icon  {
+	background: url(../images/switch_icons/controls_brightness3_highlighted.png) no-repeat center center;
+}
+
+
+
+
+
+.switches-list .switch-gps .icon  {
+	background: url(../images/switch_icons/controls_gps_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-gps-disabled .icon  {
+	background: url(../images/switch_icons/controls_gps_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-gps-highlighted .icon  {
+	background: url(../images/switch_icons/controls_gps_highlighted.png) no-repeat center center;
+}
+
+
+
+.switches-list .switch-lock .icon  {
+	background: url(../images/switch_icons/controls_locked_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-lock-disabled .icon  {
+	background: url(../images/switch_icons/controls_locked_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-lock-highlighted .icon  {
+	background: url(../images/switch_icons/controls_locked_highlighted.png) no-repeat center center;
+}
+
+
+
+
+.switches-list .switch-network .icon  {
+	background: url(../images/switch_icons/controls_network_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-network-disabled .icon  {
+	background: url(../images/switch_icons/controls_network_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-network-highlighted .icon  {
+	background: url(../images/switch_icons/controls_network_highlighted.png) no-repeat center center;
+}
+
+
+
+
+.switches-list .switch-ringer .icon  {
+	background: url(../images/switch_icons/controls_ringer_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-ringer-disabled .icon  {
+	background: url(../images/switch_icons/controls_ringer_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-ringer-highlighted .icon  {
+	background: url(../images/switch_icons/controls_ringer_highlighted.png) no-repeat center center;
+}
+
+
+
+
+.switches-list .switch-rotation .icon  {
+	background: url(../images/switch_icons/controls_rotate_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-rotation-disabled .icon  {
+	background: url(../images/switch_icons/controls_rotate_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-rotation-highlighted .icon  {
+	background: url(../images/switch_icons/controls_rotate_highlighted.png) no-repeat center center;
+}
+
+
+.switches-list .switch-sync .icon  {
+	background: url(../images/switch_icons/controls_sync_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-sync-disabled .icon  {
+	background: url(../images/switch_icons/controls_sync_disabled.png) no-repeat center center;
+}
+
+
+.switches-list .switch-sync-highlighted .icon  {
+	background: url(../images/switch_icons/controls_sync_highlighted.png) no-repeat center center;
+}
+
+
+.switches-list .switch-timeout .icon  {
+	background: url(../images/switch_icons/controls_timeout_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-timeout-disabled .icon  {
+	background: url(../images/switch_icons/controls_timeout_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-timeout-highlighted .icon  {
+	background: url(../images/switch_icons/controls_timeout_highlighted.png) no-repeat center center;
+}
+
+
+.switches-list .switch-vibrate .icon  {
+	background: url(../images/switch_icons/controls_vibrate_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-vibrate-disabled .icon  {
+	background: url(../images/switch_icons/controls_vibrate_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-vibrate-highlighted .icon  {
+	background: url(../images/switch_icons/controls_vibrate_highlighted.png) no-repeat center center;
+}
+
+
+
+.switches-list .switch-wifi .icon  {
+	background: url(../images/switch_icons/controls_wifi_normal.png) no-repeat center center;
+}
+
+.switches-list .switch-wifi-disabled .icon  {
+	background: url(../images/switch_icons/controls_wifi_disabled.png) no-repeat center center;
+}
+
+.switches-list .switch-wifi-highlighted .icon  {
+	background: url(../images/switch_icons/controls_wifi_highlighted.png) no-repeat center center;
+}
