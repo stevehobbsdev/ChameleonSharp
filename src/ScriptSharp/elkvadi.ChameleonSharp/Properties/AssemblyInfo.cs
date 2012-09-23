@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("elkvadi.ChameleonSharp.Core")]
-[assembly: AssemblyDescription("Core librry for Chameleon#")]
+[assembly: AssemblyDescription("Core library for Chameleon#")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Elkvadi")]
 [assembly: AssemblyProduct("Chameleon#")]
