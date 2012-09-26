@@ -31,10 +31,13 @@
   </PropertyGroup>
   <ItemGroup>
     <ScriptInfo Include="Properties\ScriptInfo.txt" />
+    <Compile Include="Model\SelectListItem.cs" />
     <Compile Include="Options\ConfigureHtmlOptions.cs" />
     <Compile Include="Options\ClickableHtmlOptions.cs" />
     <Compile Include="Options\HtmlMessageOptions.cs" />
     <Compile Include="Options\InvalidateOptions.cs" />
+    <Compile Include="Options\SelectListItemOptions.cs" />
+    <Compile Include="Options\SelectListOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ChameleonUiObject.cs" />
   </ItemGroup>

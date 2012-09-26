@@ -66,5 +66,22 @@ namespace elkvadi.ChameleonSharp.Ui
         {
             return;
         }
+
+        /// <summary>
+        /// Turns an 'a' element into a select list using the options provided
+        /// </summary>
+        public void ChameleonSelectList(SelectListOptions options)
+        {
+            return;
+        }
+
+        /// <summary>
+        /// Gets the selected item from the select list
+        /// </summary>
+        /// <returns>SelectListItem that is selected</returns>
+        public SelectListItem GetSelectedListItem(SelectListItemOptions options)
+        {
+            return null;
+        }
     }
 }

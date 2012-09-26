@@ -13,6 +13,18 @@ namespace elkvadi.ChameleonSharp.Core
     public class WidgetOptions
     {
         /// <summary>
+        /// If set to true, will allow your widget to notify Chameleon when it is finished initializing to enable clean startup sequencing.
+		/// If not used, widget will be treated as initialized at onLoad.
+		/// If used, you must call chameleon.initialize() within 10 seconds. Chameleon will auto initialize at that time.
+        /// </summary>
+        public bool ManualInitialize
+        {
+            get { return false; }
+            set { }
+        }
+
+
+        /// <summary>
         /// Triggered every time the widget loads.
         /// </summary>
         [IntrinsicProperty]
@@ -33,7 +45,8 @@ namespace elkvadi.ChameleonSharp.Core
         }
 
         /// <summary>
-        /// Triggered everytime Chameleon resumes	(comes back into focus).	
+        /// Triggered everytime Chameleon resumes, or when the dashboard that hosts this widget becomes
+        /// the active dashboard
         /// </summary>
         [IntrinsicProperty]
         public ChameleonEventHandler OnResume
@@ -43,7 +56,8 @@ namespace elkvadi.ChameleonSharp.Core
         }
 
         /// <summary>
-        /// Triggered every time Chameleon pauses (goes out of focus).
+        /// Triggered every time Chameleon pausesor when the dashboard that hosts this widget changes from being 
+        /// the active dashboard, to being an inactive one.
         /// </summary>
         [IntrinsicProperty]
         public ChameleonEventHandler OnPause
@@ -138,6 +152,16 @@ namespace elkvadi.ChameleonSharp.Core
         /// </summary>
         [IntrinsicProperty]
         public ChameleonEventHandler OnRefresh
+        {
+            get { return null; }
+            set { }
+        }
+
+        /// <summary>
+        /// Triggered when the user taps the action button on the widget title bar.
+        /// </summary>
+        [IntrinsicProperty]
+        public ChameleonEventHandler OnAction
         {
             get { return null; }
             set { }

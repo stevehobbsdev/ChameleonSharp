@@ -33,6 +33,7 @@
     <DocumentationFile>bin\Release\SwitchWidgetJs.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Test.cs" />
     <None Include="packages.config" />
     <None Include="Properties\FxCop.ruleset" />
     <None Include="Properties\Script.template" />

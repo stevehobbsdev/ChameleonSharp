@@ -31,15 +31,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Delegates.cs" />
+    <Compile Include="Model\Versions.cs" />
+    <Compile Include="Options\ActionOptions.cs" />
     <Compile Include="Options\ComponentOptions.cs" />
     <Compile Include="Options\IntentOptions.cs" />
     <Compile Include="Options\LoadingOptions.cs" />
     <Compile Include="Options\NameValueOptions.cs" />
     <Compile Include="Options\OAuthUrlOptions.cs" />
     <Compile Include="Options\OAuthOptions.cs" />
+    <Compile Include="Options\PollOptions.cs" />
     <Compile Include="Options\PromptHtmlOptions.cs" />
     <Compile Include="Options\RefreshOptions.cs" />
     <Compile Include="Options\TitleOptions.cs" />
+    <Compile Include="Options\VersionRequireOptions.cs" />
     <Compile Include="Options\WidgetOptions.cs" />
     <ScriptInfo Include="Properties\ScriptInfo.txt" />
     <Compile Include="Properties\AssemblyInfo.cs" />

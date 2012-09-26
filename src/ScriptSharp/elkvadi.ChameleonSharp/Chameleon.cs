@@ -23,12 +23,53 @@ namespace elkvadi.ChameleonSharp.Core
             get { return null; }
             private set {  }
         }
-        
 
         /// <summary>
-        /// Chameleon API does not currently have this method listed so unsure of it's use
+        /// Gets a Versions object containing the version numbers of Chameleon, chameleon.js, and chameleon.jquery.js
+        /// </summary>
+        /// <returns>Versions object containig the version numbers</returns>
+        [ScriptName("version")]
+        public static Versions GetVersion()
+        {
+            return null;
+        }
+
+        /// <summary>
+        /// returns true if running components meet the specified version requirements.
+        /// </summary>
+        /// <param name="options">Object containing version numbers to check</param>
+        /// <returns>true if running components meet the specified version requirements, otherwise false</returns>
+        public static bool Version(VersionRequireOptions options)
+        {
+            return false;
+        }
+
+        /// <summary>
+        /// Returns the package name of the Chameleon app currently running. There are two versions of Chameleon in the wild: 
+        /// one for our Kickstarters, and another for the general public.
+        /// </summary>
+        /// <returns></returns>
+        public static string GetChameleonPackageName()
+        {
+            return null;
+        }
+
+        /// <summary>
+        /// If your widget is using manual initialization, then this function is used to finalize that initialization process 
+        /// at your desired time. Remember that you only have 10 seconds after onLoad to call this before Chameleon calls it for you, 
+        /// and moves on to loading the next widget.
         /// </summary>
         public static void Initialize()
+        {
+            return;
+        }
+
+        /// <summary>
+        /// Will print a log message for this widget. We have not yet exposed a log viewing tool for developers inside of Chameleon. 
+        /// Expect this soon.
+        /// </summary>
+        /// <param name="message"></param>
+        public static void Log(string message)
         {
             return;
         }
@@ -68,6 +109,18 @@ namespace elkvadi.ChameleonSharp.Core
         public static bool IsInLayoutMode()
         {
             return false;
+        }
+
+        /// <summary>
+        /// Show a special icon in the title bar that performs an action of your choice. We tend to use this for 
+        /// "edit" or "post" operations such as "Tweet" for the Twitter widget, and "Status Update" for the Facebook widget.
+        ///
+        /// Make sure you set 'allowAction' to true in your widget manifest to use the action button.
+        /// </summary>
+        /// <param name="options">Options to configure this method</param>
+        public static void Action(ActionOptions options)
+        {
+            return;
         }
 
         /// <summary>
@@ -234,6 +287,17 @@ namespace elkvadi.ChameleonSharp.Core
         public static T GetSharedData<T>()
         {
             return default(T);
+        }
+
+        /// <summary>
+        /// Register a function to be called perpetually on an interval. When you create a poll, you register it by name, 
+        /// and may stop it by referring to that name in the future.
+        ///
+        /// Repeated registers of a poll with the same name will be ignored.
+        /// </summary>
+        public static void Poll(PollOptions options)
+        {
+            return;
         }
 
         /// <summary>
