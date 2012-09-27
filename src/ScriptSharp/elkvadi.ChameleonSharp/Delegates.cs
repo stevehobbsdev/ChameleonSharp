@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
+
 namespace elkvadi.ChameleonSharp.Core
 {
     /// <summary>
@@ -27,4 +28,5 @@ namespace elkvadi.ChameleonSharp.Core
     /// </summary>
     /// <param name="data"></param>
     public delegate void ChameleonPlainResultEventHandler(Dictionary data);
+
 }

@@ -229,6 +229,15 @@ namespace elkvadi.ChameleonSharp.Core
         }
 
         /// <summary>
+        /// Does only the work of launching a native select list and handling the selected result.
+        /// </summary>
+        /// <param name="options">Options used to configure the select list</param>
+        public static void SelectList(SelectListOptions options)
+        {
+            return;
+        }
+
+        /// <summary>
         /// Save and persist an object that is only accessible to this widget instance.
         /// </summary>
         /// <param name="data">Data to save</param>

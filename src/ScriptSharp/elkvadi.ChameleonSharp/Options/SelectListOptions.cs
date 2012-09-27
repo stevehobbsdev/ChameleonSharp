@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace elkvadi.ChameleonSharp.Ui
+namespace elkvadi.ChameleonSharp.Core
 {
     /// <summary>
     /// Properties used when using the chameleonSelectList method
@@ -27,6 +27,16 @@ namespace elkvadi.ChameleonSharp.Ui
         /// </summary>
         [IntrinsicProperty]
         public List<SelectListItem> List
+        {
+            get { return null; }
+            set { }
+        }
+
+        /// <summary>
+        /// A callback function that let's you determine what was selected by the user.
+        /// </summary>
+        [IntrinsicProperty]
+        public ChameleonPlainResultEventHandler Result
         {
             get { return null; }
             set { }

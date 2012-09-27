@@ -1,3 +1,4 @@
+using elkvadi.ChameleonSharp.Core;
 using jQueryApi;
 using System;
 using System.Html;

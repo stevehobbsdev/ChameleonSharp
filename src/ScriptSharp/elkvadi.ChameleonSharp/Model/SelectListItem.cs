@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 
-namespace elkvadi.ChameleonSharp.Ui
+namespace elkvadi.ChameleonSharp.Core
 {
     /// <summary>
     /// An item represented in a SelectList
