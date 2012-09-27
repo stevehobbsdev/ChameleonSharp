@@ -37,7 +37,7 @@ namespace elkvadi.ChameleonSharp.Ui
         /// </summary>
         /// <param name="options"></param>
         [ScriptName("chameleonWidgetErrorHTML")]
-        public jQueryObject ChameleonWidgetErrorHTML(ClickableHtmlOptions options)
+        public jQueryObject ChameleonWidgetErrorHTML()
         {
             return null;
         }
@@ -55,7 +55,7 @@ namespace elkvadi.ChameleonSharp.Ui
         /// Displays a standard message on the widget telling the user that this widget needs wifi
         /// </summary>
         [ScriptName("chameleonWidgetNeedWiFiHTML")]
-        public jQueryObject ChameleonWidgetNeedWiFiHTML(HtmlMessageOptions options)
+        public jQueryObject ChameleonWidgetNeedWiFiHTML()
         {
             return null;
         }
